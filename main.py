@@ -43,5 +43,4 @@ async def on_member_update(before, after):
             await after.remove_roles(role)
             await after.send("Blocked Roles.")
 
-# ボットを実行
 bot.run("YOUR_BOT_TOKEN")
